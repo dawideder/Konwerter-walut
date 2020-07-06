@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+   <h1>Currency Converter</h1> 
+
+   <marquee>Welcome to the online currency converter</marquee>
+   <br>
+   <form name="converter">
+<fieldset>
+<label for="">PLN(zł): </label>
+<input type="number" name="rupees" required>
+<input type="button" value="Convert" onclick="currencyConverter(converter.rupees.value)"><br><br>
+
+<label for="">Dollar(USD): </label>
+<input id="dollar"><br><br>
+
+<label for="">Euro(EURO): </label>
+<input id="euro"><br><br>
+
+<label for="">Swiss franc(CHF): </label>
+<input id="swiss"><br><br>
+
+<label for="">Pound(GBP): </label>
+<input id="pound"><br><br>
+
+<label for="">Yuan(JPY): </label>
+<input id="jpy"><br><br>
+
+<input type="reset" value="Reset Form" class="reset">
+
+<p align="center">You can press Reset Button for reseting the form</p>
+
+</fieldset>
+
+   </form>
+
+<script src="main.js"></script>
+</body>
+</html>
